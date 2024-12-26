@@ -1,0 +1,3 @@
+这部分的机器人工作是基于多个开源项目组成的可用完整流程的工作流，主要是是一些适应性工作
+
+bunkerExploration&Location是在bunker pro小车上完成利用多镭神雷达的拼接，并使用Faster-LIO完成定位，同时对于局部避障使用CMU-Exploration完成，对于全局规划同样是采用CMU的TARE完成。由于整个项目是基于Nvidia Jetson Orin上完成的，对于TARE的编译需要替换or-tools。
